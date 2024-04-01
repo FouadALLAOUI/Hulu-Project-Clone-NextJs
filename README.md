@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## To Run the Hulu Project 
+```bash
+npm run build
+npm strat
+```
+
 First, run the development server:
 
 ```bash

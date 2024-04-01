@@ -16,6 +16,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'), // Ensure Tailwind CSS plugin is included
+    require('@tailwindcss/jit'), // Include Tailwind CSS JIT plugin
+    require('autoprefixer')
+  ],
 };
 export default config;
