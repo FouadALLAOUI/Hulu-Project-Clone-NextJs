@@ -1,3 +1,12 @@
+import {
+    BadgeCheckIcon,
+    CollectionIcon,
+    HomeIcon,
+    LightningBoltIcon,
+    SearchIcon,
+    UserIcon
+} from "@heroicons/react/outline"
+
 import Image from "next/image"
 import HeaderItem from "./HeaderItem"
 
