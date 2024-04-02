@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Nav from "../components/Nav";
+//import "../styles/globals.css";
 
 
 export default function Home() {
@@ -10,11 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
-      <h1>RIODAN 70</h1>
-
       {/* Header */}
         <Header/>
       {/* Navbar */}
+      <Nav/>
 
       {/* Results */}
 
