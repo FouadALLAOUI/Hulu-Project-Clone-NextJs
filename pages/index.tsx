@@ -6,8 +6,8 @@ import  requests from "../utils/requests";
 //import "../styles/globals.css";
 
 
-export default function Home(props: any) {
-  console.log(props)
+export default function Home({results}) {
+  //console.log(props)
   return (
     <div>
       <Head>
@@ -20,7 +20,7 @@ export default function Home(props: any) {
       {/* Navbar */}
       <Nav/>
       {/* Results */}
-      <Results />
+      <Results results={results} />
 
 
 
