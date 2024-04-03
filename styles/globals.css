@@ -3,11 +3,20 @@
 @tailwind utilities;
 
 
+
+/*
 @layer base{
     body {
         @apply bg-[#06202A] text-gray-300;
     }
 }
+*/
+
+@layer base {
+    body {
+      @apply bg-gray-900 text-gray-300; /* Example: Use gray background with white text */
+    }
+  }
 
 
 
