@@ -6,7 +6,7 @@ import  requests from "../utils/requests";
 //import "../styles/globals.css";
 
 
-export default function Home({results}) {
+export default function Home({results}) { //this Problem should be resolved in a time manner
   console.log(results)
   return (
     <div>
